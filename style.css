@@ -1,0 +1,167 @@
+
+* {
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: rgb(34, 34, 122);
+    padding: 5% 10% 5% 10%;
+}
+
+h1 {
+    color: white;
+    font-weight: lighter;
+}
+
+h1 strong {
+    color: white;
+}
+
+
+.title-1 {
+    padding: auto;
+    margin: auto;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(252, 252, 255);
+}
+
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+}
+
+ul {
+    display: inline-flex; 
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+}
+
+.menu a:hover {
+    color:rgb(185, 163, 206);
+    font-weight: 400;
+}
+
+.seccion-1 {
+    background-image: url(impresionante-escena-cordillera-riviera-francesa.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 500px;
+    margin-bottom: 2%;
+    
+}
+
+.seccion-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.izquierda {
+    
+    width: 70%;
+    background-color: white;
+}
+
+.about-us {
+    padding: 10%;
+}
+
+.about-us h3 {
+    text-transform: uppercase;
+    color: rgb(34, 34, 122);
+    padding-bottom: 2%;
+}
+
+.about-us p {
+    font-size: 0.9em;
+    line-height: 1.4em;
+    padding-bottom: 5%;
+}
+
+.about-us a {
+    background-color: rgb(34, 34, 122);
+    padding: 2%;
+}
+
+.about-us a:hover {
+    background-color:rgba(34, 34, 122, 0.50);
+    border:rgb(34, 34, 122);
+}
+.derecha { 
+    width: 30%;
+    height: 140px ;
+    margin-left: 5px;  
+}
+
+.derecha1 {
+    width: 100%;
+    height: 145px;
+    margin-bottom: 5px;
+    background-color: lightpink;
+}
+
+.team h3 {
+    text-transform: uppercase;
+}
+
+.derecha2 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.derecha2-1 {
+    width: 47%;
+    height: 95px;
+    background-color: yellow;
+    margin-top: 5px;
+}
+
+.seccion-3 {
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+    background-color: blueviolet;
+}
+
+.seccion-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%; 
+    margin-top: 10px;  
+}
+
+.seccion4-1 {
+    background-color:peru;
+    width: 24%;
+    height: 180px;
+}
+
+footer {
+    display: flex;
+    justify-content:space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
